@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5d481f13e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/week3-portfolio-prjct/resources/stylesheets/style.css">
+    <title>Portfolio Prjct</title>
+  </head>
+  <body class="lato-regular" style="overflow-x: hidden;">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark" id="nav-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand h5 text-light" href="#"><span class="fa-solid fa-code"></span> Joseandres Valencia</a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                <a class="nav-link text-light active" aria-current="page" href="#home"
+                  ><span class="fa-solid fa-house m-1"></span>Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#featured-projects"><span class="fa-solid fa-file m-1"></span>Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#technical-arsenal"><span class="fa-solid fa-gears m-1"></span>Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#about"><span class="fa-solid fa-user m-1"></span>About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact"><span class="fa-solid fa-envelope m-1"></span>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home"><!-- home intro landing pg -->
+        <div class="my-custom-bg pb-5">
+        <!-- container for first section with gradient background -->
+        <div class="container pt-5 d-lg-flex justify-content-between align-items-center flex-lg-{grow|shrink}-1">
+          <!--container for horizontal flex tablet/desktop mode-->
+          <div class="container col-lg-8 col-md-12 px-0 mb-5">
+              <h1 class="mb-2 text-light"><b>Welcome to My Digital Playground!</b></h1>
+              <p class="fs-5 mb-4 text-light">
+                I'm Joseandres Valencia, a passionate full-stack developer who
+                transforms ideas into interactive web experiences.
+              </p>
+              <div class="row px-2 column-gap-3 gy-2 pb-4">
+                <a
+                  href="#"
+                  class="btn btn-primary rounded-pill p-2 col-lg-4 col-md-4 row-sm-1 custom-intro-btns" id="cstm-intro-btn1" style="max-width: 286px;"
+                  ><span class="fa-solid fa-"></span>View My Work</a
+                >
+                <a
+                  href="#"
+                  class="btn btn-secondary rounded-pill p-2 col-lg-4 col-md-4 row-sm-1 custom-intro-btns" id="cstm-intro-btn2" style="max-width: 286px;"
+                  ><span class="fa-solid fa-"></span>Download Resume</a
+                >
+              </div>
+          </div>
+          <div class="pb-5">
+            <i class="d-flex justify-content-center fa-solid fa-laptop-code fa-4x" style="color: #ebebeb;"></i>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section id="featured-projects">
+        <!-- container/section for all white background content Featured prjcts -->
+        <div class="col justify-content-center align-items-center mb-5 pb-2">
+          <div class="my-5 d-flex align-items-center flex-column">
+            <h2 class="mb-3"><b>Featured Projects</b></h2>
+            <div class="bottom-line mb-2"></div>
+            <p class="fs-5 mb-4 text-center">
+              Innovative solutions that showcase my technical expertise
+            </p>
+          </div>
+          <div class="row justify-content-center align-items-center gap-3"> 
+            <!-- above is cards container-->
+            <div
+              class="card mb-4 p-0"
+              style="width: 23rem; height: 20rem"
+             >
+              <div
+                class="card-header d-flex align-items-center gap-2 text-bg-success p-3"
+              >
+                <span class="fa-solid fa-leaf fa-xl"></span>
+                <h3 class="m-0">EcoTracker App</h3>
+               </div>
+               <div class="card-body">
+                <p class="card-text">
+                  A responsive web application that helps users track their
+                  carbon footprint with interactive charts and gamification
+                  features.
+                </p>
+                <div class="d-flex justify-content-center gap-2">
+                  <span class="badge text-bg-primary p-2 rounded-pill"
+                    >React</span
+                  >
+                  <span class="badge text-bg-primary p-2 rounded-pill"
+                    >Node.js</span
+                  >
+                  <span class="badge text-bg-primary p-2 rounded-pill"
+                    >MongoDB</span
+                  >
+                  <span class="badge text-bg-primary p-2 rounded-pill"
+                    >D3.js</span
+                  >
+                </div>
+                <div class="position-absolute bottom-0 start-0 mb-3 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary rounded-pill px-4"
+                  >
+                    <span class="fa-solid fa-arrow-up-right-from-square fa-xs me-1"></span>Live Site
+                  </button>
+                </div>
+                <div class="position-absolute bottom-0 end-0 mb-3 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary rounded-pill px-4"
+                  >
+                    <span class="me-1 fa-github fab"></span>GitHub
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div 
+              class="card mb-4 p-0"
+              style="width: 23rem; height: 20rem"
+            >
+              <div
+                class="card-header d-flex align-items-center gap-2 text-bg-info text-light p-3"
+              >
+                <span class="fa-solid fa-xl fa-list-check"></span>
+                <h3 class="m-0">TaskFlow Dashboard</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  A modern project management dashboard with real-time
+                  collaboration features and animated data visualizations.
+                </p>
+                <div class="d-flex justify-content-center gap-2">
+                  <span class="badge text-bg-success p-2 rounded-pill"
+                    >Vue.js</span
+                  >
+                  <span class="badge text-bg-success p-2 rounded-pill"
+                    >Express.js</span
+                  >
+                  <span class="badge text-bg-success p-2 rounded-pill"
+                    >Socket.io</span
+                  >
+                  <span class="badge text-bg-success p-2 rounded-pill"
+                    >Chart.js</span
+                  >
+                </div>
+                <div class="position-absolute bottom-0 start-0 mb-3 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary rounded-pill px-4"
+                  >
+                    <span class="fa-solid fa-arrow-up-right-from-square fa-xs me-1"></span>Live Site
+                  </button>
+                </div>
+                <div class="position-absolute bottom-0 end-0 mb-3 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary rounded-pill px-4"
+                  >
+                    <span class="me-1 fa-github fab"></span>GitHub
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card mb-4 p-0"
+              style="width: 23rem; height: 20rem"
+            >
+              <div
+                class="card-header d-flex align-items-center gap-2 text-bg-warning p-3"
+              >
+                <span class="fa-solid fa-xl fa-utensils"></span>
+                <h3 class="m-0">Recipe Finder PWA</h3>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  A progressive webv app that suggest recipes based on available
+                  ingredients with offline functionality.
+                </p>
+                <div class="d-flex flex-wrap gap-2">
+                  <span class="badge text-bg-warning p-2 rounded-pill"
+                    >Javascript</span
+                  >
+                  <span class="badge text-bg-warning p-2 rounded-pill"
+                    >Service Workers</span
+                  >
+                  <span class="badge text-bg-warning p-2 rounded-pill"
+                    >Firebase</span
+                  >
+                  <span class="badge text-bg-warning p-2 rounded-pill"
+                    >API Integration</span
+                  >
+                </div>
+                <div class="position-absolute bottom-0 start-0 mb-3 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary rounded-pill px-4"
+                  >
+                    <span class="fa-solid fa-arrow-up-right-from-square fa-xs me-1"></span>Live Site
+                  </button>
+                </div>
+                <div class="position-absolute bottom-0 end-0 mb-3 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary rounded-pill px-4"
+                  >
+                    <span class="me-1 fa-github fab"></span>GitHub
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="technical-arsenal"> <!--technical arsenal-->
+        <div class="tech-arsenal">
+          <div class="container-fluid d-flex justify-content-center align-items-center flex-column mb-5 p-4">
+            <div class="d-flex justify-content-center align-items-center flex-column mb-5">
+              <h2 class="mb-3"><b>My Technical Arsenal</b></h2>
+              <div class="bottom-line mb-2"></div>
+              <p class="text-center">Technologies and tools I use to bring ideas to life</p>
+            </div>
+            <div class="container-fluid w-100 text-center row gap-3 justify-content-center mx-0"> <!-- container for all cards-->
+              <div
+                class="card col pb-3"
+                style="min-width: 240px; max-width: 250px;"
+              >
+                <div class="card-body">
+                  <div class="col">
+                    <span class="fa-brands fa-html5 fa-3x mt-4" style="color: #6644ca;"></span>
+                    <h3 class="card-title mt-4">Frontend Development</h3>
+                    <p class="card-text mt-3 text-secondary">
+                      HTML5, CSS3, JavaScript ES6+, React, Vue.js, TypeScript,
+                      Bootstrap, TailwindCSS
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card col pb-3"
+                style="min-width: 240px; max-width: 250px;"
+              >
+                <div class="card-body">
+                  <div class="col">
+                    <span class="fa-solid fa-server fa-3x mt-4" style="color: #6644ca;"></span>
+                    <h3 class="card-title mt-4">Backend Development</h3>
+                    <p class="card-text mt-3 text-secondary">
+                      Node.js, Express.js, Python, Django, RESTful APIs,
+                      GraphQL, JWT Authentication
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card col pb-3"
+                style="min-width: 240px; max-width: 250px;"
+              >
+                <div class="card-body">
+                  <div class="col">
+                    <span class="fa-3x fa-solid fa-database mt-4" style="color: #6644ca;"></span>
+                    <h3 class="card-title mt-4">Database & Cloud</h3>
+                    <p class="card-text mt-3 text-secondary">
+                      MongoDB, PostgreSQL, MySQL, Firebase, AWS, Google Cloud,
+                      Docker, Git
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="card col pb-3"
+                style="min-width: 240px; max-width: 250px;"
+              >
+                <div class="card-body">
+                  <div class="col">
+                    <span class="fa-3x fa-solid fa-paintbrush mt-4" style="color: #6644ca;"></span>
+                    <h3 class="card-title mt-4">Design & Tools</h3>
+                    <p class="card-text mt-3 text-secondary">
+                      Figma, Adobe XD, Responsive Design, Accessibility,
+                      Performance Optimization
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about"> <!-- About me-->
+        <div class="container d-flex justify-content-center flex-column flex-lg-row pb-3">
+          <div class="container d-flex justify-content-start align-items-start flex-column mb-5" style="max-width: 730px; min-width: 410px;">
+            <h2 class="mb-3"><b>About Me</b></h2>
+            <div class="bottom-line mb-2"></div>
+            <p>Hi! I'm Joseandres, a full-stack developer with 3+ years of experienced creating digital solutions that make a difference.</p>
+            <p>My journey began with a Computer Science degree, but my real education happened through countless hrs of coding, debugging, and building projects that solve real-world problems.</p>
+            <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing my knowledge through tech blog posts and mentoring fellow developers.</p>
+          </div>
+          <div class="d-flex justify-content-around align-items-center flex-wrap flex-row align-self-sm-center" style="min-width:160px; max-width: 400px;"> <!--div for little cards-->
+            <!-- <div class="d-flex flex-row justify-content-between">2card container -->
+              <div class="card d-flex align-items-center justify-content-center flex-wrap my-0 mx-0 mb-4 p-2 row-lg-3" style="min-width: 170px; height: 95px">
+                <h3 class=" h2 card-title m-0 text-primary"><b>3+</b></h3>
+                <p class="card-text text-secondary m-0"><b></b>Years Experienced</p>
+              </div>
+              <div class="card d-flex align-items-center justify-content-center flex-wrap my-0 mx-0 mb-4 p-2 row-lg-3" style="min-width: 170px; height: 95px">
+                <h3 class=" h2 card-title m-0 text-primary"><b>25+</b></h3>
+                <p class="card-text text-secondary m-0"><b></b>Projects</p>
+              </div>
+            <!-- </div> -->
+            <!-- <div class="d-flex flex-row justify-content-between">2card container -->
+              <div class="card d-flex align-items-center justify-content-center flex-wrap my-0 mx-0 mb-4 p-2 row-lg-3" style="min-width: 170px; height: 95px">
+                <h3 class=" h2 card-title m-0 text-primary"><b>98%</b></h3>
+                <p class="card-text text-secondary m-0"><b></b>Client Satisfaction</p>
+              </div>
+              <div class="card d-flex align-items-center justify-content-center flex-wrap my-0 mx-0 mb-4 p-2 row-lg-3" style="min-width: 170px; height: 95px">
+                <h3 class=" h2 card-title m-0 text-primary"><b>150+</b></h3>
+                <p class="card-text text-secondary m-0"><b></b>GitHub Contributions</p>
+              </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light" id="contact">
+      <div class=" col pt-5">
+        <div class="text-center d-flex justify-content-center align-items-center flex-column mb-5">
+          <h2 class="mb-3">Let's Build Something Amazing Together</h2>
+          <div class="bottom-line mb-2"></div>
+          <p class="text-secondary">Ready to turn your ideas into reality? I'd love to hear about your project!</p>
+        </div>
+        <div class="container d-flex justify-content-evenly align-items-center flex-column flex-lg-row flex-grow-2"><!--contact info container-->
+          <div class="container mb-3"><!--email-->
+            <h5><span class="fa-solid fa-envelope me-2"></span><b>Email</b></h5>
+            <p class="text-gray">joetrek@2kul4skool.bro</p>
+          </div>
+          <div class="container mb-3"><!--phone-->
+            <h5><span class="fa-solid fa-phone me-2"></span><b>Phone</b></h5>
+            <p class="text-gray">(970) 393-0234</p>
+          </div>
+          <div class="container mb-3"><!--location-->
+            <h5><span class="fa-solid fa-location-dot me-2"></span><b>Location</b></h5>
+            <p class="text-gray">San Franny, CA</p>
+          </div>
+          <div class="container mb-3"><!--connect-->
+            <h5><span class="fa-solid fa-share-nodes me-2"></span><b>Connect</b></h5>
+            <div class="d-flex justify-content-between" style="width: 10rem;"><!--social media icons-->
+              <a href="https://www.linkedin.com" target="_blank" class="text-light"><span class="fa-brands fa-linkedin fa-2x"></span></a><!--linkedIn-->
+              <a href="https://www.github.com" target="_blank" class="text-light"><span class="fa-github fab fa-2x"></span></a><!--GitHub-->
+              <a href="https://www.twitter.com" target="_blank" class="text-light"><span class="fa-brands fa-x-twitter fa-2x"></span></a><!--X-->
+              <a href="https://www.dribbble.com" target="_blank" class="text-light"><span class="fa-brands fa-dribbble fa-2x"></span></a><!--Dribble-->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-secondary d-flex justify-content-center gap-4 flex-wrap p-5" id="footer4footer"><!--footer for the footer-->
+        <p>&copy;2024 Joseandres Valencia, Crafting digital experiences with passion and precision.</p>
+        <!-- insert back to top button below HERE -->
+        <a href="#nav-nav" class="btn btn-outline-light"><span class="icon">icon</span>Back to Top</a>
+        <a href="/week3-portfolio-prjct/me.html" class="btn btn-outline-secondary">dont click me</a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

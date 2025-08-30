@@ -1,0 +1,57 @@
+/* universal styles */
+/* fonts */
+body {
+  font-family: 'Lexend', sans-serif;
+}
+
+.my-custom-bg {
+    background: linear-gradient(45deg, rgb(88, 88, 237), rgb(103, 66, 103));
+}
+
+.custom-intro-btns:first-of-type {
+    border: 1px solid gray;
+    background: linear-gradient(200deg, rgb(53, 53, 208), rgb(171, 57, 171));
+}
+
+.custom-intro-btns:last-of-type {
+    border: 1px solid white;
+}
+
+#cstm-intro-btn1 {
+    border: none;
+    transition: background 0.5s ease-in;
+}
+
+#cstm-intro-btn1:hover {
+    background: linear-gradient(200deg, rgb(28, 28, 112), rgb(118, 13, 118));
+}
+
+#cstm-intro-btn2 {
+    background-color: transparent;
+}
+
+.bottom-line {
+    background: linear-gradient(45deg, rgb(88, 88, 237), rgb(103, 66, 103));
+    position: relative;
+    border-image: linear-gradient(rgb(88, 88, 237), rgb(103, 66, 103)) 1;
+    width: 7rem;
+    height: 4px;
+    border-radius: 7px;
+}
+
+
+.tech-arsenal {
+    background-color: hsl(0, 0%, 50%, 0.05);
+}
+
+.card {
+    box-shadow: 7px 15px 15px hsl(0, 0%, 50%, 0.3);
+    border: 1px solid transparent;
+}
+
+/* footer styles */
+
+/* footer for the footer */
+#footer4footer {
+    background-color: black;
+}
